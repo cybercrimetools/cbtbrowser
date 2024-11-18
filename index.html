@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CBT Exam Browser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="C:\Users\ACER\Documents\cnt edit\foto\logo cbt.jpg" alt="Logo" class="logo">
+    <span class="version">v 5.0</span>
+
+    <button class="input-button" onclick="masukkanURL()">
+      Masukkan URL 
+    </button>
+    <button class="input-button" onclick="scanKodeQR()">
+      Scan Kode QR
+    </button>
+
+    <div class="menu">
+      <button class="menu-button" onclick="useragent()">
+        <img src="C:\Users\ACER\Documents\cnt edit\foto\logo useragent.jpg" alt="Useragent Icon" class="icon">
+        <span class="button-text">Useragent</span>
+      </button>
+      <button class="menu-button" onclick="share()">
+        <img src="C:\Users\ACER\Documents\cnt edit\foto\logo share.jpg" alt="Share Icon" class="icon">
+        <span class="button-text">Share</span>
+      </button>
+      <button class="menu-button" onclick="rateUs()">
+        <img src="C:\Users\ACER\Documents\cnt edit\foto\logo rateus.jpg" alt="Rate Icon" class="icon">
+        <span class="button-text">Rate Us</span>
+      </button>
+      <button class="menu-button" onclick="lapor()">
+        <img src="C:\Users\ACER\Documents\cnt edit\foto\logo lapor.jpg" alt="Lapor Icon" class="icon">
+        <span class="button-text">Lapor</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="urlModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <input type="text" id="urlInput" placeholder="Masukkan URL">
+      <button onclick="bukaURL()">Buka</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
