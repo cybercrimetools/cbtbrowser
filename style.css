@@ -119,21 +119,34 @@ body {
   /* ... kode CSS Anda sebelumnya ... */
 
 /* CSS Media Queries untuk HP */
+/* CSS Media Queries untuk HP */
 @media (max-width: 600px) {
   .container {
-    width: 95%; 
-    padding: 20px; 
+    width: 90%;  /* Sesuaikan lebar container */
+    padding: 25px; /* Sesuaikan padding */
   }
 
   .input-button {
-    font-size: 16px; 
+    font-size: 18px; /* Sesuaikan ukuran font tombol */
+    padding: 18px; /* Sesuaikan padding tombol */
   }
 
   .menu-button {
-    width: 48%; 
+    width: 48%; /* Lebar tombol menu */
+    padding: 12px; /* Sesuaikan padding tombol menu */
+    font-size: 14px; /* Sesuaikan ukuran font tombol menu */
   }
 
   .modal-content {
-    width: 90%; 
+    width: 90%; /* Lebar modal */
+  }
+
+  .icon {
+    width: 30px; /* Sesuaikan ukuran ikon */
+    margin-bottom: 8px; /* Sesuaikan margin bawah ikon */
+  }
+
+  .button-text {
+    font-size: 14px; /* Sesuaikan ukuran font teks tombol */
   }
 }
