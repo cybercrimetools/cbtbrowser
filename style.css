@@ -150,15 +150,3 @@ body {
   font-size: 14px; /* Sesuaikan ukuran font teks tombol */
 }
 }
-/* ... kode CSS sebelumnya ... */
-
-#qrScannerModal .modal-content {
-  background-color: #000; /* Latar belakang hitam untuk video */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#qrScannerVideo {
-  border: 1px solid #fff; /* Border putih untuk video */
-}
