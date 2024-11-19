@@ -40,7 +40,7 @@ body {
     background-color: white; /* Warna tombol putih */
     color: #4682B4; /* Warna teks biru */
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 18px;
   }
   
@@ -68,7 +68,7 @@ body {
     background-color: white; /* Warna tombol putih */
     color: #778899; /* Warna teks abu-abu */
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 10px; 
   }
   
