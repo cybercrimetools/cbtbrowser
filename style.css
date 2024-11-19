@@ -7,12 +7,12 @@ body {
     min-height: 100vh;
     margin: 0;
   }
-  @media (max-width: 600px) {
+  
   .container {
     /* Hapus background-color: white; */ 
-    width: 95%;
+    width: 90%;
     max-width: 400px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -41,7 +41,7 @@ body {
     color: #4682B4; /* Warna teks biru */
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .icon {
@@ -63,7 +63,7 @@ body {
     flex-direction: column; /* Susun ikon dan teks secara vertikal */
     align-items: center;
     justify-content: center;
-    width: 48%; 
+    width: 20%; 
     padding: 8px 12px; 
     background-color: white; /* Warna tombol putih */
     color: #778899; /* Warna teks abu-abu */
@@ -100,7 +100,7 @@ body {
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 90%; 
+    width: 80%; 
   }
   
   .close-button {
@@ -115,5 +115,25 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+  /* ... kode CSS Anda sebelumnya ... */
+
+/* CSS Media Queries untuk HP */
+@media (max-width: 600px) {
+  .container {
+    width: 95%; 
+    padding: 20px; 
+  }
+
+  .input-button {
+    font-size: 16px; 
+  }
+
+  .menu-button {
+    width: 48%; 
+  }
+
+  .modal-content {
+    width: 90%; 
   }
 }
