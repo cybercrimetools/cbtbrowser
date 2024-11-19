@@ -8,6 +8,7 @@
 <body>
   <div class="container">
     <img src="foto/logo%20cbt.jpg" alt="Logo" class="logo">
+    <div class="logo-text">CBT Exam Browser</div> 
     <span class="version">v 5.0</span>
 
     <button class="input-button" onclick="masukkanURL()">
@@ -45,6 +46,20 @@
       <button id="fullscreenButton">Fullscreen</button>
     </div>
   </div>
+
+  <div class="container">
+  </div>
+
+<div id="urlModal" class="modal">
+  </div>
+
+<div id="qrScannerModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button" onclick="tutupScanner()">&times;</span>
+    <video id="qrScannerVideo" width="100%" autoplay></video>
+    <div id="qrScannerResult"></div>
+  </div>
+</div>
 
   <script src="script.js"></script>
 </body>
